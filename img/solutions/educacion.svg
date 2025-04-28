@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="800" height="600" fill="#F5F7FA"/>
+  <rect width="800" height="600" fill="#E6EFFD" opacity="0.7"/>
+  
+  <!-- Elementos gráficos -->
+  <g transform="translate(180, 150)">
+    <!-- Laptop y plataforma de aprendizaje -->
+    <path d="M0 0 L300 0 L300 180 L0 180 Z" fill="#1E1E2C" opacity="0.9"/>
+    <path d="M10 10 L290 10 L290 150 L10 150 Z" fill="#FFF"/>
+    <path d="M-30 180 L330 180 L315 210 L-15 210 Z" fill="#1E1E2C" opacity="0.7"/>
+    
+    <!-- Contenido dentro de la pantalla -->
+    <rect x="30" y="30" width="100" height="110" rx="5" fill="#0066FF" opacity="0.1"/>
+    <rect x="140" y="30" width="120" height="50" rx="5" fill="#0066FF" opacity="0.1"/>
+    <rect x="140" y="90" width="120" height="50" rx="5" fill="#0066FF" opacity="0.1"/>
+    
+    <text x="80" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0066FF">Video</text>
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0066FF">Módulo 1</text>
+    <text x="200" y="110" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0066FF">Módulo 2</text>
+    
+    <!-- Iconos de los lados -->
+    <circle cx="370" cy="40" r="30" fill="#0066FF" opacity="0.2"/>
+    <text x="370" y="45" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0066FF">A+</text>
+    
+    <circle cx="370" cy="110" r="30" fill="#0066FF" opacity="0.2"/>
+    <path d="M355 110 L385 110 M370 95 L370 125" stroke="#0066FF" stroke-width="3"/>
+    
+    <circle cx="370" cy="180" r="30" fill="#0066FF" opacity="0.2"/>
+    <text x="370" y="185" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0066FF">?</text>
+    
+    <!-- Libros y recursos -->
+    <rect x="-80" y="20" width="50" height="70" rx="5" fill="#0066FF" opacity="0.7"/>
+    <rect x="-75" y="15" width="40" height="70" rx="5" fill="#0066FF" opacity="0.9"/>
+    <rect x="-70" y="10" width="30" height="70" rx="5" fill="#0066FF"/>
+    <text x="-55" y="45" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#FFF">e</text>
+    
+    <!-- Gráfico de progreso -->
+    <path d="M-60 120 L-60 200 L50 200" stroke="#1E1E2C" stroke-width="2" fill="none"/>
+    <rect x="-50" y="170" width="15" height="30" fill="#0066FF" opacity="0.5"/>
+    <rect x="-25" y="150" width="15" height="50" fill="#0066FF" opacity="0.7"/>
+    <rect x="0" y="130" width="15" height="70" fill="#0066FF" opacity="0.9"/>
+    <rect x="25" y="120" width="15" height="80" fill="#0066FF"/>
+  </g>
+  
+  <!-- Título -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1E1E2C">Soluciones Educación</text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0066FF">Plataformas LMS, aulas virtuales y herramientas colaborativas</text>
+</svg> 

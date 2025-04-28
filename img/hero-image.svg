@@ -1,0 +1,85 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes pulse {
+      0% { opacity: 0.8; }
+      50% { opacity: 1; }
+      100% { opacity: 0.8; }
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .server { animation: float 6s ease-in-out infinite; }
+    .cloud { animation: float 6s ease-in-out infinite; animation-delay: 1s; }
+    .device { animation: float 6s ease-in-out infinite; animation-delay: 2s; }
+    .code { animation: pulse 4s ease-in-out infinite; }
+    .gear { animation: spin 12s linear infinite; transform-origin: center; }
+  </style>
+  
+  <!-- Background Elements -->
+  <circle cx="300" cy="200" r="150" fill="#F5F7FA" opacity="0.5"/>
+  <circle cx="300" cy="200" r="100" fill="#E6EFFD" opacity="0.7"/>
+  
+  <!-- Server -->
+  <g class="server">
+    <rect x="250" y="150" width="100" height="160" rx="4" fill="#1E1E2C"/>
+    <rect x="260" y="170" width="80" height="5" rx="2" fill="#0066FF"/>
+    <rect x="260" y="185" width="80" height="5" rx="2" fill="#00C8FF"/>
+    <rect x="260" y="200" width="80" height="5" rx="2" fill="#0066FF"/>
+    <rect x="260" y="215" width="50" height="5" rx="2" fill="#00C8FF"/>
+    <circle cx="285" cy="240" r="15" fill="#0066FF"/>
+    <circle cx="315" cy="240" r="15" fill="#00C8FF"/>
+  </g>
+  
+  <!-- Cloud -->
+  <g class="cloud">
+    <path d="M400 120 C420 120, 440 140, 440 160 C470 140, 490 180, 460 200 C480 220, 450 260, 420 240 C410 260, 380 260, 370 240 C340 250, 330 210, 360 200 C340 180, 360 140, 380 140 C380 120, 400 120, 400 120" fill="white" stroke="#E6EFFD" stroke-width="2"/>
+    <path d="M415 180 L425 170 L435 180 L425 190 Z" fill="#0066FF"/>
+    <path d="M385 170 L395 160 L405 170 L395 180 Z" fill="#00C8FF"/>
+  </g>
+  
+  <!-- Device/Mobile -->
+  <g class="device">
+    <rect x="150" y="180" width="60" height="100" rx="8" fill="#1E1E2C"/>
+    <rect x="155" y="190" width="50" height="70" rx="2" fill="#F5F7FA"/>
+    <rect x="165" y="200" width="30" height="5" rx="2" fill="#0066FF"/>
+    <rect x="165" y="210" width="30" height="5" rx="2" fill="#0066FF"/>
+    <rect x="165" y="220" width="20" height="5" rx="2" fill="#00C8FF"/>
+    <circle cx="180" cy="270" r="5" fill="#F5F7FA"/>
+  </g>
+  
+  <!-- Code Elements -->
+  <g class="code">
+    <rect x="205" y="120" width="40" height="10" rx="2" fill="#0066FF" opacity="0.8"/>
+    <rect x="190" y="135" width="70" height="10" rx="2" fill="#00C8FF" opacity="0.8"/>
+    <rect x="210" y="150" width="30" height="10" rx="2" fill="#0066FF" opacity="0.8"/>
+    
+    <rect x="355" y="220" width="40" height="10" rx="2" fill="#0066FF" opacity="0.8"/>
+    <rect x="370" y="235" width="70" height="10" rx="2" fill="#00C8FF" opacity="0.8"/>
+    <rect x="390" y="250" width="30" height="10" rx="2" fill="#0066FF" opacity="0.8"/>
+  </g>
+  
+  <!-- Gear -->
+  <g class="gear">
+    <circle cx="440" cy="300" r="20" fill="#1E1E2C"/>
+    <circle cx="440" cy="300" r="8" fill="#F5F7FA"/>
+    <rect x="438" y="270" width="4" height="15" rx="2" fill="#1E1E2C"/>
+    <rect x="438" y="315" width="4" height="15" rx="2" fill="#1E1E2C"/>
+    <rect x="410" y="298" width="15" height="4" rx="2" fill="#1E1E2C"/>
+    <rect x="455" y="298" width="15" height="4" rx="2" fill="#1E1E2C"/>
+    
+    <rect x="419" y="279" width="4" height="15" rx="2" transform="rotate(-45 419 279)" fill="#1E1E2C"/>
+    <rect x="457" y="317" width="4" height="15" rx="2" transform="rotate(-45 457 317)" fill="#1E1E2C"/>
+    <rect x="457" y="279" width="4" height="15" rx="2" transform="rotate(45 457 279)" fill="#1E1E2C"/>
+    <rect x="419" y="317" width="4" height="15" rx="2" transform="rotate(45 419 317)" fill="#1E1E2C"/>
+  </g>
+  
+  <!-- Connecting Lines -->
+  <line x1="200" y1="230" x2="245" y2="200" stroke="#0066FF" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="350" y1="200" x2="395" y2="170" stroke="#00C8FF" stroke-width="2" stroke-dasharray="5,5"/>
+</svg> 

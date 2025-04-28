@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="800" height="600" fill="#F5F7FA"/>
+  <rect width="800" height="600" fill="#E6EFFD" opacity="0.7"/>
+  
+  <!-- Elementos gráficos -->
+  <g transform="translate(250, 160)">
+    <!-- Tarjeta de crédito -->
+    <rect x="0" y="0" width="300" height="180" rx="15" fill="#0066FF" opacity="0.9"/>
+    <rect x="0" y="40" width="300" height="40" fill="#000" opacity="0.2"/>
+    <rect x="30" y="110" width="240" height="30" rx="5" fill="#FFF" opacity="0.9"/>
+    <circle cx="250" cy="30" r="20" fill="#FFD700" opacity="0.9"/>
+    <circle cx="220" cy="30" r="20" fill="#FF6B6B" opacity="0.7"/>
+    
+    <!-- Chip -->
+    <rect x="40" y="80" width="40" height="30" rx="5" fill="#FFD700" opacity="0.7"/>
+    <rect x="45" y="85" width="30" height="5" rx="2" fill="#000" opacity="0.3"/>
+    <rect x="45" y="95" width="30" height="5" rx="2" fill="#000" opacity="0.3"/>
+    <rect x="45" y="105" width="30" height="5" rx="2" fill="#000" opacity="0.3"/>
+    
+    <!-- Líneas de datos financieros -->
+    <path d="M100 250 L150 210 L200 240 L250 180 L300 200" 
+          stroke="#0066FF" stroke-width="3" fill="none"/>
+    <circle cx="100" cy="250" r="5" fill="#0066FF"/>
+    <circle cx="150" cy="210" r="5" fill="#0066FF"/>
+    <circle cx="200" cy="240" r="5" fill="#0066FF"/>
+    <circle cx="250" cy="180" r="5" fill="#0066FF"/>
+    <circle cx="300" cy="200" r="5" fill="#0066FF"/>
+    
+    <!-- Iconos financieros -->
+    <circle cx="50" cy="250" r="25" fill="#0066FF" opacity="0.2"/>
+    <text x="50" y="258" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0066FF">$</text>
+    
+    <circle cx="350" cy="250" r="25" fill="#0066FF" opacity="0.2"/>
+    <text x="350" y="258" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0066FF">€</text>
+  </g>
+  
+  <!-- Título -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1E1E2C">Soluciones Fintech</text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0066FF">Sistemas de pago, inversiones y gestión financiera</text>
+</svg> 

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agreste.io - Desarrollo de software, aplicaciones móviles y soluciones web personalizadas para empresas y startups">
+    <title>Agreste.io - Soluciones Tecnológicas Innovadoras</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMUUxRTJDIiByeD0iNiIvPgogIDxwYXRoIGQ9Ik04IDEwTDE4IDZMMjQgOEwyNiAxNEwyMiAyMkwxMCAyNkw2IDE4TDggMTBaIiBmaWxsPSIjMDA2NkZGIi8+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iNCIgZmlsbD0iI0ZGRiIvPgo8L3N2Zz4=">
+</head>
+<body>
+    <!-- Navegación -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Agreste<span>.io</span></h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#soluciones">Soluciones</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" class="btn-contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content animate-slideInUp">
+                <h1>Transformamos ideas en <span>soluciones digitales</span> a medida</h1>
+                <p>Desarrollo de software, aplicaciones móviles y soluciones web personalizadas para impulsar el crecimiento de tu negocio.</p>
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-primary">Solicitar consulta</a>
+                    <a href="#servicios" class="btn btn-secondary">Explorar servicios</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/hero-image.svg" alt="Soluciones digitales" width="600" height="400"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros servicios</h2>
+                <p>Soluciones tecnológicas adaptadas a tus necesidades específicas</p>
+            </div>
+            <div class="servicios-grid">
+                <div class="servicio-card animate-zoomIn delay-100">
+                    <div class="icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Creamos sitios web y aplicaciones dinámicas optimizadas para rendimiento y experiencia de usuario.</p>
+                </div>
+                <div class="servicio-card animate-zoomIn delay-200">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicaciones Móviles</h3>
+                    <p>Desarrollo de apps nativas y multiplataforma para iOS y Android que destacan por su usabilidad.</p>
+                </div>
+                <div class="servicio-card animate-zoomIn delay-300">
+                    <div class="icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Sistemas a Medida</h3>
+                    <p>Software personalizado para automatizar procesos empresariales y mejorar la productividad.</p>
+                </div>
+                <div class="servicio-card animate-zoomIn delay-400">
+                    <div class="icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Implementación y gestión de infraestructura en la nube con metodologías ágiles.</p>
+                </div>
+                <div class="servicio-card animate-zoomIn delay-400">
+                    <div class="icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Inteligencia Artificial</h3>
+                    <p>Soluciones basadas en IA para análisis de datos, automatización y optimización de procesos.</p>
+                </div>
+                <div class="servicio-card animate-zoomIn delay-500">
+                    <div class="icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Ciberseguridad</h3>
+                    <p>Protección integral para tus aplicaciones y datos con estándares de seguridad avanzados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluciones -->
+    <section id="soluciones" class="soluciones section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Soluciones para cada industria</h2>
+                <p>Expertise en sectores específicos con soluciones adaptadas a cada necesidad</p>
+            </div>
+            <div class="soluciones-tabs">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="fintech">Fintech</button>
+                    <button class="tab-btn" data-tab="ecommerce">E-Commerce</button>
+                    <button class="tab-btn" data-tab="salud">Salud</button>
+                    <button class="tab-btn" data-tab="logistica">Logística</button>
+                    <button class="tab-btn" data-tab="educacion">Educación</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-content active" id="fintech">
+                        <div class="tab-image">
+                            <img src="img/solutions/fintech.svg" alt="Soluciones Fintech" width="800" height="600"> 
+                        </div>
+                        <div class="tab-info">
+                            <h3>Soluciones Fintech</h3>
+                            <p>Plataformas seguras para pagos, transferencias y gestión financiera con APIs integrables y cumplimiento normativo.</p>
+                            <ul>
+                                <li>Pasarelas de pago personalizadas</li>
+                                <li>Sistemas de gestión de inversiones</li>
+                                <li>Plataformas de préstamos P2P</li>
+                                <li>Aplicaciones de presupuesto personal</li>
+                            </ul>
+                            <a href="#contacto" class="btn btn-outline">Más información</a>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="ecommerce">
+                        <div class="tab-image">
+                           <img src="img/solutions/ecommerce.svg" alt="Soluciones E-commerce" width="800" height="600">
+                        </div>
+                       <div class="tab-info">
+                           <h3>Soluciones E-Commerce</h3>
+                           <p>Tiendas online robustas y escalables, integradas con sistemas de pago y logística para una experiencia de compra fluida.</p>
+                           <ul>
+                               <li>Plataformas B2C y B2B</li>
+                               <li>Integración con marketplaces</li>
+                               <li>Sistemas de gestión de inventario</li>
+                               <li>Marketing automation para E-commerce</li>
+                           </ul>
+                           <a href="#contacto" class="btn btn-outline">Más información</a>
+                       </div>
+                   </div>
+                   <div class="tab-content" id="salud">
+                        <div class="tab-image">
+                           <img src="img/solutions/salud.svg" alt="Soluciones Salud" width="800" height="600">
+                        </div>
+                       <div class="tab-info">
+                           <h3>Soluciones Salud (HealthTech)</h3>
+                           <p>Aplicaciones y sistemas para mejorar la gestión de pacientes, telemedicina y análisis de datos clínicos cumpliendo normativas.</p>
+                           <ul>
+                               <li>Plataformas de teleconsulta</li>
+                               <li>Sistemas de gestión de historias clínicas (EHR/EMR)</li>
+                               <li>Apps de monitorización de salud</li>
+                               <li>Análisis de datos para investigación</li>
+                           </ul>
+                           <a href="#contacto" class="btn btn-outline">Más información</a>
+                       </div>
+                   </div>
+                   <div class="tab-content" id="logistica">
+                        <div class="tab-image">
+                           <img src="img/solutions/logistica.svg" alt="Soluciones Logística" width="800" height="600">
+                        </div>
+                       <div class="tab-info">
+                           <h3>Soluciones Logística</h3>
+                           <p>Optimización de rutas, seguimiento en tiempo real y gestión de flotas para mejorar la eficiencia de la cadena de suministro.</p>
+                           <ul>
+                               <li>Sistemas de gestión de transporte (TMS)</li>
+                               <li>Optimización de rutas y última milla</li>
+                               <li>Plataformas de seguimiento de envíos</li>
+                               <li>Gestión de almacenes (WMS)</li>
+                           </ul>
+                           <a href="#contacto" class="btn btn-outline">Más información</a>
+                       </div>
+                   </div>
+                   <div class="tab-content" id="educacion">
+                        <div class="tab-image">
+                           <img src="img/solutions/educacion.svg" alt="Soluciones Educación" width="800" height="600">
+                        </div>
+                       <div class="tab-info">
+                           <h3>Soluciones Educación (EdTech)</h3>
+                           <p>Plataformas de e-learning interactivas, sistemas de gestión académica y herramientas colaborativas para la educación moderna.</p>
+                           <ul>
+                               <li>Plataformas LMS personalizadas</li>
+                               <li>Aulas virtuales y herramientas colaborativas</li>
+                               <li>Sistemas de gestión de estudiantes (SIS)</li>
+                               <li>Apps educativas gamificadas</li>
+                           </ul>
+                           <a href="#contacto" class="btn btn-outline">Más información</a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section id="proceso" class="proceso section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestro proceso de desarrollo</h2>
+                <p>Metodología ágil enfocada en resultados y máxima transparencia</p>
+            </div>
+            <div class="proceso-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <h3>Descubrimiento</h3>
+                    <p>Analizamos tus necesidades y objetivos para definir el alcance del proyecto.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <h3>Planificación</h3>
+                    <p>Diseñamos la arquitectura y definimos las tecnologías adecuadas para tu solución.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <h3>Desarrollo</h3>
+                    <p>Implementamos la solución con ciclos iterativos y entregas continuas.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <h3>Pruebas</h3>
+                    <p>Realizamos testing exhaustivo para garantizar calidad y rendimiento óptimo.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">05</div>
+                    <h3>Despliegue</h3>
+                    <p>Lanzamos tu solución al mercado con configuración optimizada.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">06</div>
+                    <h3>Soporte</h3>
+                    <p>Ofrecemos mantenimiento continuo y actualizaciones según tus necesidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologías -->
+    <section id="tecnologias" class="tecnologias section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tecnologías que utilizamos</h2>
+                <p>Stack tecnológico actualizado para soluciones de alto rendimiento</p>
+            </div>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>Desarrollo</h3>
+                    <div class="tech-icons">
+                        <div class="tech-icon"><img src="img/tech/react.svg" alt="React" width="60" height="60"><span>React</span></div>
+                        <div class="tech-icon"><img src="img/tech/nextjs.svg" alt="Next.js" width="60" height="60"><span>Next.js</span></div>
+                        <div class="tech-icon"><img src="img/tech/node.svg" alt="Node.js" width="60" height="60"><span>Node.js</span></div>
+                        <div class="tech-icon"><img src="img/tech/python.svg" alt="Python" width="60" height="60"><span>Python</span></div>
+                        <div class="tech-icon"><img src="img/tech/react-native.svg" alt="React Native" width="60" height="60"><span>React Native</span></div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="tech-icons">
+                        <div class="tech-icon"><img src="img/tech/aws.svg" alt="AWS" width="60" height="60"><span>AWS</span></div>
+                        <div class="tech-icon"><img src="img/tech/gcp.svg" alt="GCP" width="60" height="60"><span>GCP</span></div>
+                        <div class="tech-icon"><img src="img/tech/cloudflare.svg" alt="Cloudflare" width="60" height="60"><span>Cloudflare</span></div>
+                        <div class="tech-icon"><img src="img/tech/docker.svg" alt="Docker" width="60" height="60"><span>Docker</span></div>
+                        <div class="tech-icon"><img src="img/tech/kubernetes.svg" alt="Kubernetes" width="60" height="60"><span>Kubernetes</span></div>
+                        <div class="tech-icon"><img src="img/tech/terraform.svg" alt="Terraform" width="60" height="60"><span>Terraform</span></div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Colaboración & Entrega</h3>
+                    <div class="tech-icons">
+                        <div class="tech-icon"><img src="img/tech/cicd.svg" alt="CI/CD" width="60" height="60"><span>CI/CD</span></div>
+                        <div class="tech-icon"><img src="img/tech/github.svg" alt="GitHub" width="60" height="60"><span>GitHub</span></div>
+                        <div class="tech-icon"><img src="img/tech/gitlab.svg" alt="GitLab" width="60" height="60"><span>GitLab</span></div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Data & IA</h3>
+                    <div class="tech-icons">
+                        <div class="tech-icon"><img src="img/tech/machine-learning.svg" alt="Machine Learning" width="60" height="60"><span>Machine Learning</span></div>
+                        <div class="tech-icon"><img src="img/tech/business-intelligence.svg" alt="Business Intelligence" width="60" height="60"><span>Business Intelligence</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyectos destacados</h2>
+                <p>Explorando nuestros casos de éxito más recientes</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="movil">Móvil</button>
+                <button class="filter-btn" data-filter="sistema">Sistemas</button>
+                <button class="filter-btn" data-filter="ia">IA</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item web">
+                    <img src="img/portfolio/placeholder1.jpg" alt="Plataforma E-learning" width="800" height="600">
+                    <div class="portfolio-overlay">
+                        <h3>Plataforma E-learning</h3>
+                        <span>Desarrollo web completo</span>
+                        <a href="#" aria-label="Ver detalles del proyecto"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item movil">
+                    <img src="img/portfolio/placeholder2.jpg" alt="App de Finanzas Personales" width="800" height="600">
+                    <div class="portfolio-overlay">
+                        <h3>App de Finanzas Personales</h3>
+                        <span>Aplicación móvil multiplataforma</span>
+                        <a href="#" aria-label="Ver detalles del proyecto"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item sistema">
+                    <img src="img/portfolio/placeholder3.jpg" alt="Sistema de Gestión Logística" width="800" height="600">
+                    <div class="portfolio-overlay">
+                        <h3>Sistema de Gestión Logística</h3>
+                        <span>Software empresarial a medida</span>
+                        <a href="#" aria-label="Ver detalles del proyecto"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item ia">
+                    <img src="img/portfolio/placeholder4.jpg" alt="Chatbot Inteligente" width="800" height="600">
+                    <div class="portfolio-overlay">
+                        <h3>Chatbot Inteligente</h3>
+                        <span>Solución de IA para atención al cliente</span>
+                        <a href="#" aria-label="Ver detalles del proyecto"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item web">
+                    <img src="img/portfolio/placeholder5.jpg" alt="Portal Institucional" width="800" height="600">
+                    <div class="portfolio-overlay">
+                        <h3>Portal Institucional</h3>
+                        <span>Desarrollo web a medida</span>
+                        <a href="#" aria-label="Ver detalles del proyecto"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item movil">
+                    <img src="img/portfolio/placeholder6.jpg" alt="App de Delivery" width="800" height="600">
+                    <div class="portfolio-overlay">
+                        <h3>App de Delivery</h3>
+                        <span>Aplicación móvil iOS y Android</span>
+                        <a href="#" aria-label="Ver detalles del proyecto"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Listo para transformar tus ideas en realidad?</h2>
+            <p>Contacta con nuestro equipo de expertos y demos vida a tu próximo proyecto tecnológico.</p>
+            <a href="#contacto" class="btn">Solicitar una consulta gratuita</a>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Listo para comenzar tu proyecto?</h2>
+                <p>Contáctanos para una consulta personalizada sin compromiso</p>
+            </div>
+            <div class="contacto-grid">
+                <div class="info-contacto">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Ubicación</h3>
+                            <p>Av. Tecnológica 123, Ciudad de México</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <a href="mailto:contacto@agresteio.com">contacto@agresteio.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Teléfono</h3>
+                            <a href="tel:+525512345678">+52 55 1234 5678</a>
+                        </div>
+                    </div>
+                    <div class="contacto-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contacto-form">
+                    <form action="#" method="POST"> 
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono (opcional)</label>
+                            <input type="tel" id="telefono" name="telefono" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo-proyecto">Tipo de proyecto</label>
+                            <select id="tipo-proyecto" name="tipo_proyecto" class="form-control" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="web">Desarrollo Web</option>
+                                <option value="app">Aplicación Móvil</option>
+                                <option value="sistema">Sistema a Medida</option>
+                                <option value="cloud">Cloud & DevOps</option>
+                                <option value="ia">Inteligencia Artificial</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Cuéntanos sobre tu proyecto</label>
+                            <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h2>Agreste<span>.io</span></h2>
+                    <p>Transformamos ideas en soluciones digitales innovadoras que impulsan el crecimiento de tu negocio con tecnología de vanguardia.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-list">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#soluciones">Soluciones</a></li>
+                        <li><a href="#proceso">Proceso</a></li>
+                        <li><a href="#tecnologias">Tecnologías</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir novedades sobre tecnología y desarrollo</p>
+                    <form action="#" method="POST">
+                        <input type="email" id="newsletter-email" name="newsletter_email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" aria-label="Suscribirse"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Agreste.io. Todos los derechos reservados.</p> 
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de WhatsApp flotante -->
+    <a href="https://wa.me/5215512345678" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

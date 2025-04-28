@@ -1,0 +1,40 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="20" width="80" height="80" rx="4" fill="#3B82F6" opacity="0.1"/>
+  
+  <!-- CI Box -->
+  <rect x="30" y="40" width="25" height="25" rx="3" fill="#3B82F6" opacity="0.8"/>
+  <text x="42.5" y="55" text-anchor="middle" font-family="Arial" font-size="10" fill="white" font-weight="bold">CI</text>
+
+  <!-- CD Box -->
+  <rect x="65" y="40" width="25" height="25" rx="3" fill="#3B82F6" opacity="0.8"/>
+  <text x="77.5" y="55" text-anchor="middle" font-family="Arial" font-size="10" fill="white" font-weight="bold">CD</text>
+
+  <!-- Arrow connecting CI to CD -->
+  <path d="M55 52.5 L65 52.5" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M62 49 L65 52.5 L62 56" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Circle with check mark (CI success) -->
+  <circle cx="42.5" y="75" r="8" fill="#3B82F6" opacity="0.8"/>
+  <path d="M38.5 75 L41.5 78 L46.5 73" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Server/deploy (CD success) -->
+  <rect x="70" y="70" width="15" height="10" fill="#3B82F6"/>
+  <rect x="75" y="67" width="5" height="3" fill="#3B82F6"/>
+  <circle cx="72.5" cy="73" r="1" fill="white"/>
+  <circle cx="72.5" cy="77" r="1" fill="white"/>
+
+  <!-- Connection lines -->
+  <path d="M42.5 65 L42.5 67" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M77.5 65 L77.5 70" stroke="#3B82F6" stroke-width="2"/>
+
+  <!-- Git branch lines -->
+  <path d="M30 30 L30 35 C30 37 28 37 28 39 L28 42" stroke="#3B82F6" stroke-width="1.5" fill="none"/>
+  <path d="M30 30 L40 30 C42 30 42 32 44 32 L55 32" stroke="#3B82F6" stroke-width="1.5" fill="none"/>
+  <path d="M55 32 L59 32 C61 32 61 30 63 30 L90 30" stroke="#3B82F6" stroke-width="1.5" fill="none"/>
+  <circle cx="30" cy="30" r="2" fill="#3B82F6"/>
+  <circle cx="55" cy="32" r="2" fill="#3B82F6"/>
+  <circle cx="90" cy="30" r="2" fill="#3B82F6"/>
+  
+  <!-- Infinity loop (continuous) -->
+  <path d="M58 90 C63 85, 67 85, 72 90 C77 95, 81 95, 86 90 C81 85, 77 85, 72 90 C67 95, 63 95, 58 90 Z" stroke="#3B82F6" stroke-width="2" fill="none"/>
+</svg> 
